@@ -19,11 +19,11 @@ body{
 }
 header{
     background: rgb(15, 191, 235);
-    border: 2px solid red;
+    border: 2px solid rgb(221, 224, 10);
     padding: 20px;
 }
 nav {
-    background: blue;
+    background: rgb(55, 255, 65);
     color: white;
 }
 nav li{
