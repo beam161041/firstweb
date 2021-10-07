@@ -12,7 +12,7 @@ body{
 }
 #wrapper{
     width: 1000px;
-    margin: 10px auto;
+    margin: 20px auto;
     display: -webkit-box;
     -webkit-box-orient:vertical;
     -webkit-box-flex: 1;
@@ -25,6 +25,7 @@ header{
 nav {
     background: rgb(55, 255, 65);
     color: white;
+    font-size:30px;
 }
 nav li{
     display: inline-block;list-style: none;
@@ -44,7 +45,7 @@ section{
     padding: 10px;
 }
 aside{
-    background: gray;
+    background: rgb(123, 255, 0);
     width: 220px;
     margin: 0px;
 }
