@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+
+    <link rel="stylesheet" href="login2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+
+</head>
+<body>
+    <form action="login2.html" class="card">
+        <div class="sign-in">Sign in</div>
+        <i id="logo" class="fas fa-user-circle"></i>
+        <div class="login-form">
+            <i class="fas fa-user" id="logo-input"></i>
+            <input type="text" class="input" id="username">
+            <span data-placeholder="Username"></span>
+        </div>  
+        <!--password--> 
+        <div class="login-form">
+            <i class="fas fa-lock" id="logo-input"></i>
+            <input type="password" class="input" id="password">
+            <span data-placeholder="Password"></span>
+        </div>   
+        <p>Don't have account? <a href="#">Sign up</a></p>
+        <input type="submit" class="btn-submit" value="login">
+    </form>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $(".input").on("focus", function(){
+              $(this).addClass("focus");
+          });
+
+          $(".input").on("blur", function(){
+            if($(this).val() == "")
+                $(this).removeClass("focus");
+
+            if($("#username").val() != "" && $("#password").val() != "")
+                $("#logo").addClass("change-color");
+            else
+                $("#logo").removeClass("change-color");
+          });
+      });
+    </script>
+</body>
+</html>
