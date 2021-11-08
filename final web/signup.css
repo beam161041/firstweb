@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
 * {
-  margin: 0
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
@@ -66,3 +66,9 @@ input{
   background: #1abc9c;
   box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
+
+.container{
+   border: 1px;
+   border-radius:20px;
+   border-color: #fff;
+ }
