@@ -30,7 +30,7 @@ img {
   border: 1px solid #ddd;
   border-radius: 15px;
   padding: 5px;
-  width: 250px;
+  width: 300px;
 }
 
 img:hover {
@@ -65,7 +65,7 @@ img:hover {
   position: relative;
   height: 100px;
   width: 95%;
-  background-image: linear-gradient(90deg,#8e9faa,#246fa1);
+  background-image: linear-gradient(120deg,#22e6dc,#4acf81,#22e6dc);
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
   padding: 40px;
@@ -91,18 +91,19 @@ h1{
 }
 
 .contan{
-  width: 250px;
+  width: 300px;
   margin: 20px;
-  height: 400px;
+  height: 340px;
   box-shadow: 5px 5px 10px rgba(19, 127, 228, 0.9);
   border-radius: 10px;
   overflow: hidden;
-  background-image: linear-gradient(130deg,#b5ec5b,#2ecc71);
+  background-image: linear-gradient(130deg,#1fb2c5,#215eb9);
 }
 
 .p1{
-  margin: 10px;
+  margin-left: 10px;
   padding: 10px;
+  font-size: 20px;
 }
 
 .btn-submit {
@@ -116,4 +117,13 @@ h1{
 
 button{
   background: none;
+}
+
+footer{
+  margin-top: 2rem;
+  background: #86afec;
+  color: var(--light);
+  text-align: center;
+  padding: 9px;
+  height: 70px;
 }
