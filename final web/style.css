@@ -30,7 +30,7 @@ img {
   border: 1px solid #ddd;
   border-radius: 4px;
   padding: 5px;
-  width: 150px;
+  width: 250px;
 }
 
 img:hover {
@@ -46,4 +46,39 @@ img:hover {
 .img {
   height: 150px;
   background-color: red;
+}
+.card{
+  width: 60px;
+  height: 150px;
+  margin-left: 40px;
+}
+
+.font{
+  margin: 20px;
+  padding: 0px;
+  color: rgb(228, 18, 18);
+  font-size: 60px;
+  text-align: center;
+}
+
+.titon{
+  position: relative;
+  height: 100px;
+  width: 95%;
+  background-image: linear-gradient(90deg,#8e9faa,#246fa1);
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  padding: 2px;
+  display: flex;
+  justify-content: center;
+  margin: 10px auto; 
+  flex-wrap: wrap; 
 }
