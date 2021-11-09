@@ -74,7 +74,14 @@ img:hover {
   justify-content: center;
   align-items: center;
   margin: 10px;
+  background-size: 200%;
+  transition: .5s;
 }
+
+.titon:hover{
+  background-position: right;
+}
+
 
 .container{
   padding: 2px;
@@ -97,7 +104,12 @@ h1{
   box-shadow: 5px 5px 10px rgba(19, 127, 228, 0.9);
   border-radius: 10px;
   overflow: hidden;
-  background-image: linear-gradient(130deg,#1fb2c5,#215eb9);
+  background-image: linear-gradient(130deg,#1fb2c5,#215eb9,#1fb2c5);
+  background-size: 200%;
+  transition: .5s;
+}
+.contan:hover{
+  background-position: right;
 }
 
 .p1{
