@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: rgb(112, 185, 43);
+  /* padding: 1px; */
+  /* text-align: center; */
+  /* font-size: 1px; */
+  color: white;
+  border-radius: 10px;
+  margin-bottom: -15px;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 13%;
+  height: 550px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 10px;
+  margin: 0;
+  border-radius: 10px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #ffffff;
+  height: 100%; /* only for demonstration, should be removed */
+  margin-left: 150px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(112, 185, 43);
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.btn-submit{
+margin: 4px;
+padding: 10px;
+width: 150px;
+border: none;
+border-radius: 10px;
+background-image: linear-gradient(120deg,#f1c40f,#d35400,#f1c40f);
+background-size: 200%;
+font-size: 18px;
+color: #fff;
+transition: .5s;
+cursor: pointer;
+text-align: center;
+}
+.btn-submit:hover{
+background-position: right;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 6px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: rgb(241, 138, 20); 
+  color: black; 
+  border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+
+.button2 {
+  background-color: rgb(241, 138, 20);
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+

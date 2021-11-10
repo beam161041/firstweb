@@ -9,33 +9,39 @@
   /* Style the header */
   header {
     background-color: rgb(112, 185, 43);
-    padding: 30px;
-    text-align: center;
-    font-size: 35px;
+    /* padding: 1px; */
+    /* text-align: center; */
+    /* font-size: 1px; */
     color: white;
+    border-radius: 10px;
+    margin-bottom: -15px;
   }
   
   /* Create two columns/boxes that floats next to each other */
   nav {
     float: left;
-    width: 30%;
-    height: 300px; /* only for demonstration, should be removed */
+    width: 13%;
+    height: 550px; /* only for demonstration, should be removed */
     background: #ccc;
-    padding: 20px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
   }
   
   /* Style the list inside the menu */
   nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 0px;
+    border-radius: 10px;
   }
   
   article {
     float: left;
     padding: 20px;
     width: 70%;
-    background-color: #f1f1f1;
-    height: 300px; /* only for demonstration, should be removed */
+    background-color: #ffffff;
+    height: 100%; /* only for demonstration, should be removed */
+    margin-left: 150px;
   }
   
   /* Clear floats after the columns */
@@ -60,5 +66,23 @@
       height: auto;
     }
   }
-
+  
+  .btn-submit{
+  margin: 4px;
+  padding: 10px;
+  width: 150px;
+  border: none;
+  border-radius: 10px;
+  background-image: linear-gradient(120deg,#f1c40f,#d35400,#f1c40f);
+  background-size: 200%;
+  font-size: 18px;
+  color: #fff;
+  transition: .5s;
+  cursor: pointer;
+  text-align: center;
+  }
+  .btn-submit:hover{
+  background-position: right;
+  }
+  
   
