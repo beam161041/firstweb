@@ -152,3 +152,19 @@ body {
   font-size : 64px;
   background-image: linear-gradient(90deg,#d35400,#f39c12,#f1c40f);
 }
+
+.btn-sg {
+  width: 88.5%;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 10px;
+  margin-left: 15px;
+  background-image: linear-gradient(90deg,#f1c40f,#d35400,#f1c40f);
+  background-size: 200%;
+  transition: .5s;
+  float: right;
+}
+
+.btn-sg:hover{
+    background-position: right;
+}
