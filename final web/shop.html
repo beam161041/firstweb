@@ -1,31 +1,63 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop</title>
-
-    <link rel="stylesheet" href="css/shop.css">
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>TreeShop</title>
+    
+        <link rel="stylesheet" href="css/shop.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
 <body>
     <div class="w3-bar w3-black w3-hide-small">
         <ul>    
-               <li><a href="home.html">ไม้ประดับ</a></li>
-               <li><a href="fruit.html">ผลไม้</a></li>
-               <li><a href="flower.html">ดอกไม้</a></li>
-               <li style="float:right"><a class="btn-sg" href="signup.html">Signup</a></li>
-               <li style="float:right"><a class="btn-sg" href="login2.html">Login</a></li>
-               <a href="shop.html"><img src="image/cart.png" style="width: 5%; margin-left: 68.5%;";></a>
+             <li><a class="btn-sga" href="home.html">ไม้ประดับ</a></li>
+             <li><a class="btn-sga" href="fruit.html">ผลไม้</a></li>
+             <li><a class="btn-sga" href="flower.html">ดอกไม้</a></li>
+             <li style="float:right"><a class="btn-sg" href="signup.html">Signup</a></li>
+             <li style="float:right"><a class="btn-sg" href="login2.html">Login</a></li>
+             <a href="shop.html"><img src="image/cart.png" style="width: 5%; margin-left: 68%;";></a>
            </ul>
        </div>
-    
-    <div class="container">
-        
-    </div>
+
+       <div class="titon" style="margin-left: 40px;">
+        <div class="font">
+          สินค้าของฉัน
+        </div>
+      </div> 
+
+       <div class="container">
+            <div class="contan">
+                <img src="image/tree1.jpg">  
+            </div>
+
+            <div class="contan2">
+                <p class="font3">รายการสินค้า</p>
+                <p class="font2">จำนวนสินค้า<input type="qty" class="qty" value="2"></p>
+                <p class="font2">ราคาต่อชิ้น<input type="qty" class="qty2" value="2,350"></p>
+                <p class="font2">ยอดที่ต้องชำระ<input type="qty" class="qty1" value="4,700"></p>
+                <a href="home.html"><input type="button" class="btn-submit" value="สั่งซื้อ"></a>
+            </div>
+       </div>
+
+       <div class="container">
+        <div class="contan">
+            <img src="image/tree2.jpg" height="500px" width="600">  
+        </div>
+
+        <div class="contan2">
+            <p class="font3">รายการสินค้า</p>
+            <p class="font2">จำนวนสินค้า<input type="qty" class="qty" value="3"></p>
+            <p class="font2">ราคาต่อชิ้น<input type="qty" class="qty2" value="60"></p>
+            <p class="font2">ยอดที่ต้องชำระ<input type="qty" class="qty1" value="180"></p>
+            <a href="home.html"><input type="button" class="btn-submit" value="สั่งซื้อ"></a>
+        </div>
+   </div>
+      
+
 </body>
 </html>
